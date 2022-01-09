@@ -35,10 +35,11 @@ const App = () => {
     document.body.appendChild(script);
   }, []);
 
-  return (
+return (
     <>
       <button onClick={() => openPayModal(options)}>Pay</button>
     </>
   );
 };
 export default App;
+
